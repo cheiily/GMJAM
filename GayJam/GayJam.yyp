@@ -37,6 +37,8 @@
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
     {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"s_body","path":"sprites/s_body/s_body.yy",},},
+    {"id":{"name":"s_head","path":"sprites/s_head/s_head.yy",},},
     {"id":{"name":"s_s","path":"sprites/s_s/s_s.yy",},},
   ],
   "resourceType":"GMProject",

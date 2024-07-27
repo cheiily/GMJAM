@@ -18,5 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"o_game","order":1,"path":"objects/o_game/o_game.yy",},
+    {"name":"s_body","order":1,"path":"sprites/s_body/s_body.yy",},
+    {"name":"s_head","order":2,"path":"sprites/s_head/s_head.yy",},
   ],
 }

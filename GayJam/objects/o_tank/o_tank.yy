@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_s",
-    "path":"sprites/s_s/s_s.yy",
+    "name":"s_body",
+    "path":"sprites/s_body/s_body.yy",
   },
   "spriteMaskId":null,
   "visible":true,
