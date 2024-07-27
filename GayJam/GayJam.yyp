@@ -35,6 +35,7 @@
   "name":"GayJam",
   "resources":[
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
+    {"id":{"name":"o_tank_head","path":"objects/o_tank_head/o_tank_head.yy",},},
     {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"s_body","path":"sprites/s_body/s_body.yy",},},
