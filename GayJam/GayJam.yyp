@@ -30,12 +30,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"GayJam",
   "resources":[
-    {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
+    {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"s_s","path":"sprites/s_s/s_s.yy",},},
   ],
