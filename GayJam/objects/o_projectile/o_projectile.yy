@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Bullet",
-    "path":"sprites/Bullet/Bullet.yy",
+    "name":"s_bullet",
+    "path":"sprites/s_bullet/s_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
