@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_body",
-    "path":"sprites/s_body/s_body.yy",
+    "name":"s_tank",
+    "path":"sprites/s_tank/s_tank.yy",
   },
   "spriteMaskId":null,
   "visible":true,

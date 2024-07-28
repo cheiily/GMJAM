@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_head",
-    "path":"sprites/s_head/s_head.yy",
+    "name":"s_tank_head",
+    "path":"sprites/s_tank_head/s_tank_head.yy",
   },
   "spriteMaskId":null,
   "visible":true,
