@@ -15,6 +15,7 @@ if (speed != 0) {
 	speed -= sign(speed) * 0.075 * speed;
 }
 
+move_bounce_solid(false);
 move_wrap(true, true, 0);
 
 head.speed = speed;

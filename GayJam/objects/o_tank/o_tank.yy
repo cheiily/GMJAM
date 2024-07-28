@@ -25,7 +25,12 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
