@@ -2,6 +2,25 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function scr_reset_players(){
 	with (o_tank) {
+		is_alive = true;
+
+		speed = 0;
+		direction = 0;
+		image_angle = 0;
 		
+		head.speed = 0;
+		head.direction = 0;
+		head.image_angle = 0;
+		
+		do {
+			x = random(window_get_width() - 100) + 50;
+			y = random(window_get_height() - 100) + 50;
+		} until(place_empty(x, y, other));
+
+		head.x = x;
+		head.y = y;
+
+		image_alpha = 1
+		head.image_alpha = 1
 	}
 }

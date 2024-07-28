@@ -2,4 +2,4 @@
 // W tym edytorze możesz zapisać swój kod
 
 alarm[2] = 100;
-countdown_print = "2";
+print = "2";

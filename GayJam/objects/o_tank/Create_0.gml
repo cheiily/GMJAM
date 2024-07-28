@@ -6,14 +6,19 @@ projectile_speed = 50;
 is_alive = true;
 is_outlier = false;
 
-if (player_id == 0)
+if (player_id == 0) {
 	color = make_color_rgb(0, 255, 0);
-else if (player_id == 1)
+	color_str = "green"; 
+} else if (player_id == 1) {
 	color = c_red;
-else if (player_id == 2)
+	color_str = "red";
+} else if (player_id == 2) {
 	color = c_blue;
-else if (player_id == 3)
+	color_str = "blue";
+} else if (player_id == 3) {
 	color = c_yellow;
+	color_str = "yellow";
+}
 
 do {
 	x = random(window_get_width() - 100) + 50;

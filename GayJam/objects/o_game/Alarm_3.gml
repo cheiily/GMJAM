@@ -2,5 +2,5 @@
 // W tym edytorze możesz zapisać swój kod
 
 alarm[4] = 50;
-countdown_print = "FIGHT";
+print = "FIGHT";
 phase.set(phase.game);

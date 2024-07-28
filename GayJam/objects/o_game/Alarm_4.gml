@@ -1,4 +1,4 @@
-/// @description Wstaw opis w tym miejscu
+/// @description CLEAR PRINT
 // W tym edytorze możesz zapisać swój kod
 
-countdown_print = "";
+print = "";

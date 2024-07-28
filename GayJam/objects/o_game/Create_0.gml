@@ -2,6 +2,13 @@ function update_phase() {
 	if (phase.current == phase.countdown) {
 		alarm[0] = 10;	
 	}
+	if (phase.current == phase.inter) {
+		scr_reset_players();
+		phase.set(phase.countdown);
+	}
+	
+	with (o_projectile)
+		instance_destroy();
 }
 
 rollback_define_player(o_tank);
@@ -24,7 +31,11 @@ if (!rollback_join_game()) {
 
 phase.set(phase.countdown);
 
-countdown_print = "3";
+print = "3";
+pclr1 = c_red;
+pclr2 = c_blue;
+pclr3 = c_yellow;
+pclr4 = c_lime;
 
 draw_set_font(f_arial);
 draw_set_halign(fa_center);
