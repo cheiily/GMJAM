@@ -5,7 +5,6 @@ knockback_speed = 30;
 projectile_speed = 50;
 is_alive = true;
 
-color = c_red;
 if (player_id == 0)
 	color = c_green;
 else if (player_id == 1)
@@ -18,4 +17,8 @@ else if (player_id == 3)
 x = random(500) + 50;
 y = random(500) + 50;
 
+image_blend = color
+
 head = instance_create_layer(x, y, "Turrets", o_tank_head);
+
+head.image_blend = color
