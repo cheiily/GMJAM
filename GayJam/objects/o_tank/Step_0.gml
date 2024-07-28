@@ -33,7 +33,7 @@ if (is_alive) {
 		}
 	
 	}
-
+	_time += 1 / game_get_speed(gamespeed_fps);
 }
 
 if (speed != 0) {
@@ -45,15 +45,3 @@ move_wrap(true, true, 0);
 
 head.speed = speed;
 head.direction = direction;
-
-if(is_outlier){
-	outlier_hue += delta_time / 1000000.0 * 255.0;
-	if(outlier_hue > 255)
-	{
-		outlier_hue = 0;
-	}
-	image_blend = make_color_hsv(outlier_hue, 255, 255)
-}
-else{
-	image_blend = color;
-}

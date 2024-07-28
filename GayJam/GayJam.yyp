@@ -45,6 +45,7 @@
     {"id":{"name":"ps_trail","path":"particles/ps_trail/ps_trail.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
+    {"id":{"name":"sh_rainbow","path":"shaders/sh_rainbow/sh_rainbow.yy",},},
     {"id":{"name":"music","path":"sounds/music/music.yy",},},
     {"id":{"name":"s_asteroid","path":"sprites/s_asteroid/s_asteroid.yy",},},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},},
