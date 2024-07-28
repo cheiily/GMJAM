@@ -28,5 +28,6 @@ do {
 image_blend = color
 
 head = instance_create_layer(x, y, "Turrets", o_tank_head);
+head.tank = self;
 
 head.image_blend = color

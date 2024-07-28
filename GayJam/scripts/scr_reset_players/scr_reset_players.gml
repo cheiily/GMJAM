@@ -8,17 +8,12 @@ function scr_reset_players(){
 		direction = 0;
 		image_angle = 0;
 		
-		head.speed = 0;
-		head.direction = 0;
-		head.image_angle = 0;
-		
 		do {
 			x = random(window_get_width() - 100) + 50;
 			y = random(window_get_height() - 100) + 50;
 		} until(place_empty(x, y, other));
 
-		head.x = x;
-		head.y = y;
+		// head pos in o_tank_head::step
 
 		image_alpha = 1
 		head.image_alpha = 1
