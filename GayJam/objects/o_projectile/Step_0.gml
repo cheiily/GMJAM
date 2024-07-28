@@ -1,5 +1,5 @@
 if (rollback_sync_on_frame()) {
-if (speed != 0) {
+if (speed > 1) {
 	speed -= sign(speed) * 0.075 * speed;
 } else {
 	instance_destroy();
