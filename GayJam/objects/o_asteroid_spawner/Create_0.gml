@@ -7,7 +7,7 @@ global.spawn_points = [
 	[1560, 180]
 ];
 
-var o_nr = random_range(3,5);
+var o_nr = 3;
 var o_type = o_asteroid;
 
 for (var i = 0; i < o_nr; i++) {

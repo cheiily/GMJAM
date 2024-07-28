@@ -6,6 +6,8 @@ rollback_define_input({
 	shoot: gp_face1,
 })
 
+randomise()
+
 if (!rollback_join_game()) {
 	rollback_create_game(2, true);
 }
