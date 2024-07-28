@@ -1,2 +1,1 @@
-self.trail = part_system_create(ps_trail);
-
+//self.trail = part_system_create_layer("Instances", true,ps_trail);
