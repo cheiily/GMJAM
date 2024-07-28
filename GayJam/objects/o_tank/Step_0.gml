@@ -15,6 +15,7 @@ if (is_alive) {
 		speed += knockback_speed;
 		proj.direction = head.image_angle;
 		proj.speed = projectile_speed;
+		proj.image_blend = color;
 	}
 
 	if (speed != 0) {
