@@ -1,2 +1,3 @@
 is_alive = false;
-//image_blend = 0;
+image_alpha = 0;
+head.image_alpha = 0;

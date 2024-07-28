@@ -4,6 +4,7 @@ shoot_cd = false;
 knockback_speed = 30;
 projectile_speed = 50;
 is_alive = true;
+is_outlier = false;
 
 if (player_id == 0)
 	color = make_color_rgb(0, 255, 0);
@@ -14,8 +15,10 @@ else if (player_id == 2)
 else if (player_id == 3)
 	color = c_yellow;
 
-x = random(500) + 50;
-y = random(500) + 50;
+do {
+	x = random(window_get_width() - 100) + 50;
+	y = random(window_get_height() - 100) + 50;
+} until(place_empty(x, y, other));
 
 image_blend = color
 
