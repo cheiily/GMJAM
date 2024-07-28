@@ -1,5 +1,3 @@
-if (rollback_sync_on_frame()) {
-
 global.spawn_points = [
     [380, 220],
     [740, 740],
@@ -26,6 +24,4 @@ for (var i = 0; i < o_nr; i++) {
 
     new_instance.image_angle = irandom_range(0, 360);
     new_instance.image_speed = random_range(0.1, 1.0);
-}
-
 }

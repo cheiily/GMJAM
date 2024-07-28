@@ -1,4 +1,3 @@
-if (rollback_sync_on_frame()) {
 
 has_outlier = false;
 outlier = undefined;
@@ -41,4 +40,3 @@ if (num_dead == 3 and phase.current == phase.game) {
 	phase.set(phase.inter);
 }
 
-}
