@@ -5,6 +5,7 @@ knockback_speed = 30;
 projectile_speed = 50;
 is_alive = true;
 is_outlier = false;
+outlier_hue = 0;
 
 if (player_id == 0) {
 	color = make_color_rgb(0, 255, 0);

@@ -16,6 +16,7 @@ if (!rollback_join_game()) {
 	//random_set_seed(global.seed);
 }
 
+audio_play_sound(music, 1, true)
 
 function update_phase() {
 	if (rollback_sync_on_frame()) {
