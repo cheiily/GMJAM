@@ -20,6 +20,7 @@
     {"name":"o_asteroid_spawner","order":4,"path":"objects/o_asteroid_spawner/o_asteroid_spawner.yy",},
     {"name":"o_asteroid","order":3,"path":"objects/o_asteroid/o_asteroid.yy",},
     {"name":"o_game","order":1,"path":"objects/o_game/o_game.yy",},
+    {"name":"o_projectile","order":5,"path":"objects/o_projectile/o_projectile.yy",},
     {"name":"o_tank_head","order":2,"path":"objects/o_tank_head/o_tank_head.yy",},
     {"name":"s_asteroid","order":3,"path":"sprites/s_asteroid/s_asteroid.yy",},
     {"name":"s_body","order":4,"path":"sprites/s_body/s_body.yy",},
