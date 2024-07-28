@@ -42,6 +42,7 @@
     {"id":{"name":"o_tank_head","path":"objects/o_tank_head/o_tank_head.yy",},},
     {"id":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},},
     {"id":{"name":"phase","path":"objects/phase/phase.yy",},},
+    {"id":{"name":"ps_trail","path":"particles/ps_trail/ps_trail.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
     {"id":{"name":"s_asteroid","path":"sprites/s_asteroid/s_asteroid.yy",},},
