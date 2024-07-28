@@ -6,7 +6,7 @@ projectile_speed = 50;
 is_alive = true;
 
 if (player_id == 0)
-	color = c_green;
+	color = make_color_rgb(0, 255, 0);
 else if (player_id == 1)
 	color = c_red;
 else if (player_id == 2)
