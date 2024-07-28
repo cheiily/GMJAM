@@ -14,14 +14,15 @@ if (is_alive) {
 		proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile);
 		speed += knockback_speed;
 		proj.direction = head.image_angle;
+		proj.image_angle = proj.direction;
 		proj.speed = projectile_speed;
 		proj.image_blend = color;
 	}
 
-	if (speed != 0) {
-		speed -= sign(speed) * 0.075 * speed;
-	}
+}
 
+if (speed != 0) {
+	speed -= sign(speed) * 0.075 * speed;
 }
 
 move_bounce_solid(false);
