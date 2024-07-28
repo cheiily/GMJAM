@@ -33,7 +33,6 @@ if (num_dead == 3 and phase.current == phase.game) {
 		survivor.is_outlier = true;
 		outlier = survivor;
 		phase.set(phase.inter);
-		alarm[5] = 10;
 	}
 } else if (num_dead == 4 and phase.current == phase.game) {
 	print = "DRAW";

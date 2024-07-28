@@ -4,7 +4,7 @@ function update_phase() {
 	}
 	if (phase.current == phase.inter) {
 		scr_reset_players();
-		phase.set(phase.countdown);
+		alarm[5] = 100;
 	}
 	
 	with (o_projectile)

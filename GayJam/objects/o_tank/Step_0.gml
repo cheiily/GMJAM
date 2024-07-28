@@ -2,7 +2,8 @@ if (is_alive) {
 
 	var input = rollback_get_input();
 
-	head.image_angle = point_direction(0, 0, input.roth, input.rotv);
+	if (input.roth != 0 and input.rotv != 0)
+		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
 	
 	// allow turret turning outside game
 	if (phase.current == phase.game) {
