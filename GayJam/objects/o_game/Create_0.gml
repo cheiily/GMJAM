@@ -20,8 +20,6 @@ function update_phase() {
 randomise()
 instance_create_layer(-10, -10, "Controllers", phase);
 
-phase.set(phase.countdown);
-
 print = "3";
 pclr1 = c_red;
 pclr2 = c_blue;
