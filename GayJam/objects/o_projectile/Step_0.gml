@@ -1,3 +1,4 @@
+if (rollback_sync_on_frame()) {
 if (speed != 0) {
 	speed -= sign(speed) * 0.075 * speed;
 } else {
@@ -7,3 +8,4 @@ if (speed != 0) {
 
 move_bounce_solid(false);
 move_wrap(true, true, 0);
+}

@@ -1,3 +1,5 @@
+if (rollback_sync_on_frame()) {
+
 if (is_alive) {
 
 	var input = rollback_get_input();
@@ -14,13 +16,14 @@ if (is_alive) {
 	
 			image_angle = head.image_angle;
 			direction = image_angle - 180;
-		
-			proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile);proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile);
 			speed += knockback_speed;
-			proj.direction = head.image_angle;
-			proj.image_angle = proj.direction;
-			proj.speed = projectile_speed;
+			
+			proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile);
 			proj.image_blend = color;
+			proj.image_angle = head.image_angle;
+			proj.direction = head.image_angle;
+			proj.speed = projectile_speed;
+			
 		}
 	
 	}
@@ -36,3 +39,5 @@ move_wrap(true, true, 0);
 
 head.speed = speed;
 head.direction = direction;
+
+}
