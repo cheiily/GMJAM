@@ -25,3 +25,7 @@ if (!rollback_join_game()) {
 phase.set(phase.countdown);
 
 countdown_print = "3";
+
+draw_set_font(f_arial);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
