@@ -1,9 +1,12 @@
+
+wait = "waiting for players";
 game = "game";
 countdown = "ready";
 inter = "round_end";
 finish = "finish";
 
-current = countdown;
+current = wait;
+
 
 function set(_phase) {
 	current = _phase;

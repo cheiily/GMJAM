@@ -1,18 +1,7 @@
-rollback_define_input({
-	roth: gp_axislh,
-	rotv: gp_axislv,
-	shoot: gp_face1,
-})
 
 randomise()
 //instance_create_depth(-10, -10, "Controllers", o_asteroid_spawner);
 
-if (!rollback_join_game()) {
-	rollback_create_game(4, true);
-	//global.seed = random_get_seed();
-} else {
-	//random_set_seed(global.seed);
-}
 
 audio_play_sound(music, 1, true)
 function update_phase() {
@@ -28,23 +17,8 @@ function update_phase() {
 		instance_destroy();
 }
 
-rollback_define_player(o_tank);
-
-rollback_define_input({
-	roth: gp_axislh,
-	rotv: gp_axislv,
-	shoot: gp_face1,
-})
-
 randomise()
-
-if (!rollback_join_game()) {
-	rollback_create_game(4, true);
-	global.seed = random_get_seed();
-	instance_create_layer(-10, -10, "Controllers", phase);
-} else {
-	random_set_seed(global.seed);
-}
+instance_create_layer(-10, -10, "Controllers", phase);
 
 phase.set(phase.countdown);
 
@@ -57,3 +31,11 @@ pclr4 = c_lime;
 draw_set_font(f_arial);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
+
+for (i = 0; i < 4; i++) {
+	player = instance_create_layer(0, 0, "Instances", o_tank);
+	player.gamepad_id = i;
+	with (player) {
+		event_user(0);
+	}
+}
