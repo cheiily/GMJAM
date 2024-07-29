@@ -23,9 +23,9 @@ if (phase.current == phase.wait) {
 	}
 }
 if (phase.current == phase.finish) {
-	draw_text_ext_transformed(window_get_width()/2, 300, 
-		"Press START to play again\nPress SELECT to exit",
-		100, 10000,
+	draw_text_ext_transformed(window_get_width()/2, 260, 
+		"Press START to play again\n\nPress SELECT to exit",
+		80, 10000,
 		0.35, 0.4, 0
 	)
 }
