@@ -1,4 +1,4 @@
-if (not is_alive) return;
+if (not is_alive or (other.parent == self and other.grace_timer < other.grace_max)) return;
 
 is_alive = false;
 image_alpha = 0;

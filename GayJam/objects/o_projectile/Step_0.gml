@@ -1,5 +1,7 @@
-if (speed > 1) {
-	speed *= 0.925;
+grace_timer++;
+
+if (speed > 1.25) {
+	speed *= 0.95;
 } else {
 	instance_destroy();
 	return;

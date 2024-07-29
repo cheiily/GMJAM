@@ -39,6 +39,7 @@ randomise()
 instance_create_layer(-10, -10, "Controllers", phase);
 first_round = true;
 pause = false;
+global.collision = undefined;
 
 num_req = 4;
 num_connected = 0;

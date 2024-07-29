@@ -43,6 +43,7 @@ if (phase.current == phase.wait) {
 
 if (is_alive) {
 
+	// retain rotation when no input
 	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001)
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
 	
@@ -66,6 +67,7 @@ if (is_alive) {
 			speed += knockback_speed;
 		
 			proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", o_projectile);
+			proj.parent = self;
 			proj.direction = head.image_angle;
 			proj.image_angle = head.image_angle;
 			proj.image_blend = color;
