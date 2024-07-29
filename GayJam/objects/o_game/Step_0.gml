@@ -2,9 +2,9 @@ if (keyboard_check(vk_f1))
 	game_end();
 	
 if (phase.current == phase.wait) {
-	if (keyboard_check_released(ord("W")))
+	if (keyboard_check_released(ord("W")) and num_req < 4)
 		num_req++;
-	if (keyboard_check_released(ord("S")))
+	if (keyboard_check_released(ord("S")) and num_req > 2)
 		num_req--;
 }
 
