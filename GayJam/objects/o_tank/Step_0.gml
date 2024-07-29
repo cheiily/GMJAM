@@ -10,7 +10,7 @@ if (is_alive) {
 
 	var input = get_input(gamepad_id);
 
-	if (input.roth != 0 and input.rotv != 0)
+	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001)
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
 	
 	// allow turret turning outside game
