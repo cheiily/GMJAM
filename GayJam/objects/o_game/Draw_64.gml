@@ -22,7 +22,7 @@ if (phase.current == phase.wait) {
 		)
 	}
 	draw_text_ext_transformed(window_get_width()/2, 180, 
-		"# - aim    $ - shoot",
+		"| to aim    ~ to shoot",
 		80, 10000,
 		0.3, 0.35, 0
 	)
