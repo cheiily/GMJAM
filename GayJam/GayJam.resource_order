@@ -23,6 +23,7 @@
     {"name":"o_projectile","order":5,"path":"objects/o_projectile/o_projectile.yy",},
     {"name":"o_tank_head","order":2,"path":"objects/o_tank_head/o_tank_head.yy",},
     {"name":"phase","order":6,"path":"objects/phase/phase.yy",},
+    {"name":"ps_background","order":2,"path":"particles/ps_background/ps_background.yy",},
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
     {"name":"s_asteroid","order":7,"path":"sprites/s_asteroid/s_asteroid.yy",},
     {"name":"s_bullet","order":5,"path":"sprites/s_bullet/s_bullet.yy",},
