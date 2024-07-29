@@ -1,6 +1,3 @@
-if (keyboard_check(vk_f1))
-	game_end();
-
 has_outlier = false;
 outlier = undefined;
 num_dead = 0;
