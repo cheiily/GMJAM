@@ -21,6 +21,11 @@ if (phase.current == phase.wait) {
 			0.5, 0.5, 0
 		)
 	}
+	draw_text_ext_transformed(window_get_width()/2, 180, 
+		"# - aim    $ - shoot",
+		80, 10000,
+		0.3, 0.35, 0
+	)
 	draw_text_ext_transformed(window_get_width()/2, window_get_height() - 150, 
 		"Press SELECT to exit\n\n{ } to change number of players",
 		80, 10000,

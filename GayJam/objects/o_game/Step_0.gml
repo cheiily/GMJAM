@@ -1,7 +1,3 @@
-if (keyboard_check(vk_f1)) {
-	phase.current = phase.game
-}
-
 has_outlier = false;
 outlier = undefined;
 num_dead = 0;
