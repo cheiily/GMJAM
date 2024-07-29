@@ -5,6 +5,13 @@ randomise()
 instance_create_layer(window_get_width()/2, window_get_height()/2, "Controllers", o_title);
 audio_play_sound(snd_music, 1, true)
 function update_phase() {
+	if (phase.previous == phase.countdown) {
+		print = "";
+		alarm[0] = -1; alarm[1] = -1; alarm[2] = -1; alarm[3] = -1; alarm[4] = -1;
+	}
+	if (phase.previous == phase.inter and phase.current != phase.countdown) {
+		alarm[5] = -1;
+	}
 	if (phase.current == phase.countdown) {
 		instance_deactivate_object(o_title);
 		print = "3";
