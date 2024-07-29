@@ -46,6 +46,7 @@
     {"id":{"name":"ps_dead","path":"particles/ps_dead/ps_dead.yy",},},
     {"id":{"name":"ps_trail","path":"particles/ps_trail/ps_trail.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
     {"id":{"name":"sh_rainbow","path":"shaders/sh_rainbow/sh_rainbow.yy",},},
     {"id":{"name":"music","path":"sounds/music/music.yy",},},
@@ -58,6 +59,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
