@@ -2,7 +2,7 @@ window_set_fullscreen(true)
 randomise()
 //instance_create_depth(-10, -10, "Controllers", o_asteroid_spawner);
 
-
+instance_create_layer(window_get_width()/2, window_get_height()/2, "Controllers", o_title);
 audio_play_sound(snd_music, 1, true)
 function update_phase() {
 	if (phase.previous == phase.countdown) {
@@ -13,6 +13,7 @@ function update_phase() {
 		alarm[5] = -1;
 	}
 	if (phase.current == phase.countdown) {
+		instance_deactivate_object(o_title);
 		print = "3";
 		alarm[0] = 10;	
 	}

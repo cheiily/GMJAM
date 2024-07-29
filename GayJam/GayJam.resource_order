@@ -24,6 +24,7 @@
     {"name":"o_projectile_explosion","order":7,"path":"objects/o_projectile_explosion/o_projectile_explosion.yy",},
     {"name":"o_projectile","order":5,"path":"objects/o_projectile/o_projectile.yy",},
     {"name":"o_tank_head","order":2,"path":"objects/o_tank_head/o_tank_head.yy",},
+    {"name":"o_title","order":9,"path":"objects/o_title/o_title.yy",},
     {"name":"phase","order":6,"path":"objects/phase/phase.yy",},
     {"name":"ps_background","order":2,"path":"particles/ps_background/ps_background.yy",},
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
@@ -36,6 +37,7 @@
     {"name":"s_bullet","order":11,"path":"sprites/s_bullet/s_bullet.yy",},
     {"name":"s_tank_head","order":10,"path":"sprites/s_tank_head/s_tank_head.yy",},
     {"name":"s_tank","order":12,"path":"sprites/s_tank/s_tank.yy",},
+    {"name":"s_title","order":14,"path":"sprites/s_title/s_title.yy",},
     {"name":"Sprite5","order":16,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }
