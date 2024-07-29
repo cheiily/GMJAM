@@ -6,6 +6,7 @@ randomise()
 audio_play_sound(music, 1, true)
 function update_phase() {
 	if (phase.current == phase.countdown) {
+		print = "3";
 		alarm[0] = 10;	
 	}
 	if (phase.current == phase.inter) {
@@ -32,7 +33,7 @@ pad_ids = [];
 //}
 
 print_w = "Waiting for Players...";
-print = "3";
+print = "";
 pclr1 = c_red;
 pclr2 = c_blue;
 pclr3 = c_yellow;
