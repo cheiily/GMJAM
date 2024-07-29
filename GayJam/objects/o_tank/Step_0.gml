@@ -13,7 +13,7 @@ var input = get_input(gamepad_id);
 
 if (input.start) {
 	if (phase.current == phase.finish) {
-		phase.set(phase.wait);
+		phase.set(phase.inter);
 	} else if (phase.current == phase.wait and o_game.num_connected == o_game.num_req) {
 		if (o_game.pause or o_game.first_round) {
 			phase.set(phase.countdown); 

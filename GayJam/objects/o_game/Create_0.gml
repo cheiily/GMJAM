@@ -5,19 +5,21 @@ randomise()
 
 audio_play_sound(snd_music, 1, true)
 function update_phase() {
-	if (phase.current == phase.wait and phase.previous == phase.finish) {
-		// this should be part of phase.inter cleanup but we always go there from wait, so we don't know whether to clear outliers or not
-		with (o_tank) {
-			is_outlier = false;
-		}
-	}
 	if (phase.current == phase.countdown) {
 		print = "3";
 		alarm[0] = 10;	
 	}
 	if (phase.current == phase.inter) {
 		scr_reset_players();
-		alarm[5] = 100;
+		if (phase.previous == phase.finish) {
+			pclr1 = c_white; pclr2 = c_white; pclr3 = c_white; pclr4 = c_white;
+			with (o_tank) {
+				is_outlier = false;
+			}
+			phase.set(phase.countdown);
+		} else {
+			alarm[5] = 100;
+		}
 	}
 	
 	with (o_projectile)
