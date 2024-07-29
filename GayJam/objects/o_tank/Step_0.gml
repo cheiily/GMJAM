@@ -5,7 +5,7 @@ function get_input(_gpid) {
 		shoot: gamepad_button_check(_gpid, gp_face1),
 		start: gamepad_button_check_released(_gpid, gp_start),
 		select: gamepad_button_check_released(_gpid, gp_select),
-		shoot_h: gamepad_button_check_pressed(_gpid, gp_face1),
+		//shoot_h: gamepad_button_check_pressed(_gpid, gp_face1),
 		dpad_up: gamepad_button_check_released(_gpid, gp_padu),
 		dpad_down: gamepad_button_check_released(_gpid, gp_padd)
 	}
@@ -48,6 +48,14 @@ if (is_alive) {
 	
 	// allow turret turning outside game
 	if (phase.current == phase.game) {
+		
+		//if (input.shoot_h) {
+		//	charge = true;
+		//	charge_time++;
+		//} else {
+		//	charge = false;
+		//	charge_time = 0;
+		//}
 
 		if (input.shoot and not shoot_cd) {
 			shoot_cd = true;
@@ -64,6 +72,12 @@ if (is_alive) {
 			proj.speed = projectile_speed;
 	
 			audio_play_sound(snd_shot, 1, false)
+			
+			//if (charge_time >= charge_time_full) {
+			//	charge_time = 0;
+			//	alarm[1] = 5;
+			//	alarm[2] = 10;
+			//}
 		}
 	
 	}

@@ -10,6 +10,7 @@ function update_phase() {
 		alarm[0] = -1; alarm[1] = -1; alarm[2] = -1; alarm[3] = -1; alarm[4] = -1;
 	}
 	if (phase.previous == phase.inter and phase.current != phase.countdown) {
+		print = "";
 		alarm[5] = -1;
 	}
 	if (phase.current == phase.countdown) {
