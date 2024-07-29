@@ -28,7 +28,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"s_asteroid_2",
     "path":"sprites/s_asteroid_2/s_asteroid_2.yy",
