@@ -1,4 +1,4 @@
-draw_text_ext_transformed_color(window_get_width()/2, window_get_height() / 2, print, 20, 10000, 
+draw_text_ext_transformed_color(window_get_width()/2, 100, print, 20, 10000, 
 	1, 1, 0, 
 	pclr1, 
 	pclr2, 
@@ -23,7 +23,7 @@ if (phase.current == phase.wait) {
 	}
 }
 if (phase.current == phase.finish) {
-	draw_text_ext_transformed(window_get_width()/2, window_get_height() / 2 + 60, 
+	draw_text_ext_transformed(window_get_width()/2, 300, 
 		"Press START to play again\nPress SELECT to exit",
 		100, 10000,
 		0.35, 0.4, 0

@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"f_arial",
+  "%Name":"f_font",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":100,
@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"Arial",
+  "fontName":"V5 Prophit",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":123,"offset":0,"shift":30,"w":30,"x":2,"y":2,},
@@ -238,7 +238,7 @@
   "last":0,
   "lineHeight":123,
   "maintainGms1Font":false,
-  "name":"f_arial",
+  "name":"f_font",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -254,7 +254,7 @@
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "sdfSpread":8,
   "size":80.0,
-  "styleName":"Regular",
+  "styleName":"Dot",
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",

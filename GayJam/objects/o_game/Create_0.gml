@@ -41,12 +41,12 @@ pad_ids = [];
 
 print_w = "Waiting for Players...";
 print = "";
-pclr1 = c_red;
-pclr2 = c_blue;
-pclr3 = c_yellow;
-pclr4 = c_lime;
+pclr1 = c_white;
+pclr2 = c_white;
+pclr3 = c_white;
+pclr4 = c_white;
 
-draw_set_font(f_arial);
+draw_set_font(f_font);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 

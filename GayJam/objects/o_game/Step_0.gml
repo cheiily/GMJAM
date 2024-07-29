@@ -45,7 +45,7 @@ if (num_dead == num_req - 1 and phase.current == phase.game) {
 	}
 } else if (num_dead == num_req and phase.current == phase.game) {
 	print = "DRAW";
-	pclr1 = c_red; pclr2 = c_blue; pclr3 = c_yellow; pclr4 = c_lime;
+	pclr1 = c_white;; pclr2 = c_white;; pclr3 = c_white;; pclr4 = c_white;;
 	if (has_outlier and outlier != undefined)
 		outlier.is_outlier = false;
 	phase.set(phase.inter);
