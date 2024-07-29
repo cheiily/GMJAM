@@ -24,7 +24,7 @@ if (input.start) {
 		}
 	}
 }
-if (input.select and phase.current == phase.finish) {
+if (input.select and (phase.current == phase.finish or phase.current == phase.wait)) {
 	game_end();
 }
 
