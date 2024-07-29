@@ -3,12 +3,27 @@ function get_input(_gpid) {
 		roth: gamepad_axis_value(_gpid, gp_axislh),
 		rotv: gamepad_axis_value(_gpid, gp_axislv),
 		shoot: gamepad_button_check(_gpid, gp_face1),
+		start: gamepad_button_check(_gpid, gp_start)
+	}
+}
+
+var input = get_input(gamepad_id);
+
+if (input.start) {
+	if (phase.current == phase.finish) {
+		phase.set(phase.wait);
+	} else if (phase.current == phase.wait and o_game.num_connected == o_game.num_req) {
+		if (o_game.pause or o_game.first_round) {
+			phase.set(phase.countdown); 
+			o_game.pause = false;
+			o_game.first_round = false;
+		} else {
+			phase.set(phase.inter);
+		}
 	}
 }
 
 if (is_alive) {
-
-	var input = get_input(gamepad_id);
 
 	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001)
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);

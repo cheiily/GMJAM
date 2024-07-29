@@ -25,8 +25,6 @@ if (phase.current == phase.wait) {
 		}
 		
 		num_connected++;
-		if (num_connected == num_req)
-			phase.set(phase.countdown);
 	}
 } 
 if (evt_type == "gamepad lost") {
@@ -52,5 +50,6 @@ if (evt_type == "gamepad lost") {
 	//if (phase.current == phase.countdown) {
 	//	alarm_
 	//}
+	pause = true;
 	phase.set(phase.wait);
 }

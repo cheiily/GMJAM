@@ -5,6 +5,12 @@ randomise()
 
 audio_play_sound(music, 1, true)
 function update_phase() {
+	if (phase.current == phase.wait and phase.previous == phase.finish) {
+		// this should be part of phase.inter cleanup but we always go there from wait, so we don't know whether to clear outliers or not
+		with (o_tank) {
+			is_outlier = false;
+		}
+	}
 	if (phase.current == phase.countdown) {
 		print = "3";
 		alarm[0] = 10;	
@@ -20,6 +26,7 @@ function update_phase() {
 
 randomise()
 instance_create_layer(-10, -10, "Controllers", phase);
+first_round = true;
 pause = false;
 
 num_req = 4;
