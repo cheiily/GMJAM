@@ -1,15 +1,15 @@
 /// @description Init
 
-if (gamepad_id == 0) {
+if (player_id_ == 0) {
 	color = c_lime;
 	color_str = "green"; 
-} else if (gamepad_id == 1) {
+} else if (player_id_ == 1) {
 	color = c_red;
 	color_str = "red";
-} else if (gamepad_id == 2) {
+} else if (player_id_ == 2) {
 	color = c_blue;
 	color_str = "blue";
-} else if (gamepad_id == 3) {
+} else if (player_id_ == 3) {
 	color = c_yellow;
 	color_str = "yellow";
 }

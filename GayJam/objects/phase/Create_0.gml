@@ -5,7 +5,7 @@ countdown = "ready";
 inter = "round_end";
 finish = "finish";
 
-current = game;
+current = wait;
 
 
 function set(_phase) {

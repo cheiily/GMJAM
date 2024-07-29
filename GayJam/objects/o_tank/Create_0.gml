@@ -6,6 +6,7 @@ projectile_speed = 50;
 is_alive = true;
 is_outlier = false;
 gamepad_id = 0;
+player_id_ = 0;
 _uniUV = shader_get_uniform(sh_rainbow, "u_uv");
 _uniTime = shader_get_uniform(sh_rainbow, "u_time");
 _uniSpeed = shader_get_uniform(sh_rainbow, "u_speed");
