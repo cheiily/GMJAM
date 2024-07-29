@@ -8,16 +8,20 @@ global.spawn_points = [
 ];
 
 var o_nr = random_range(3,5);
-var o_type = o_asteroid;
+
 
 for (var i = 0; i < o_nr; i++) {
     var index = irandom(array_length(global.spawn_points) - 1);
     var spawn_x = global.spawn_points[index][0];
     var spawn_y = global.spawn_points[index][1];
+	var asteroid_type = irandom_range(0, 1);
 	
 	array_delete(global.spawn_points, index, 1);
-
-    var new_instance = instance_create_layer(spawn_x, spawn_y, "Instances", o_type);
+	
+	if(asteroid_type == 0)
+		var new_instance = instance_create_layer(spawn_x, spawn_y, "Instances", o_asteroid);
+    else
+		var new_instance = instance_create_layer(spawn_x, spawn_y, "Instances", o_asteroid_2);
 
     new_instance.image_xscale = random_range(0.3, 1.4);
     new_instance.image_yscale = new_instance.image_xscale;

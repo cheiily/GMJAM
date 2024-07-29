@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"o_asteroid_2","order":8,"path":"objects/o_asteroid_2/o_asteroid_2.yy",},
     {"name":"o_asteroid_spawner","order":4,"path":"objects/o_asteroid_spawner/o_asteroid_spawner.yy",},
     {"name":"o_asteroid","order":3,"path":"objects/o_asteroid/o_asteroid.yy",},
     {"name":"o_game","order":1,"path":"objects/o_game/o_game.yy",},
@@ -27,6 +28,7 @@
     {"name":"ps_background","order":2,"path":"particles/ps_background/ps_background.yy",},
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
     {"name":"Test","order":1,"path":"rooms/Test/Test.yy",},
+    {"name":"s_asteroid_2","order":8,"path":"sprites/s_asteroid_2/s_asteroid_2.yy",},
     {"name":"s_asteroid","order":7,"path":"sprites/s_asteroid/s_asteroid.yy",},
     {"name":"s_bullet","order":5,"path":"sprites/s_bullet/s_bullet.yy",},
     {"name":"s_tank_head","order":4,"path":"sprites/s_tank_head/s_tank_head.yy",},
