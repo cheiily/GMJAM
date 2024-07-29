@@ -1,12 +1,3 @@
-if (keyboard_check_released(vk_escape)) {
-	if (not pause) {
-		pause = true;
-		instance_deactivate_all(true);
-	} else {
-		pause = false;
-		instance_activate_all();
-	}
-}
 if (keyboard_check(vk_f1))
 	game_end();
 	
