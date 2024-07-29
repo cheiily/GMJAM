@@ -1,5 +1,5 @@
 if (speed > 1) {
-	speed -= sign(speed) * 0.075 * speed;
+	speed *= 0.925;
 } else {
 	instance_destroy();
 	return;

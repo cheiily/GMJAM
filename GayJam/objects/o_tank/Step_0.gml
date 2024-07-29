@@ -24,11 +24,16 @@ if (is_alive) {
 			direction = image_angle - 180;
 			speed += knockback_speed;
 		
-			proj = instance_create_layer(x + lengthdir_x(15, head.image_angle), y + lengthdir_y(15, head.image_angle), "Instances", o_projectile);proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile);
-			proj.image_angle = head.image_angle;
-			proj.image_blend = color;
-			proj.direction = head.image_angle;
-			proj.speed = projectile_speed;
+			proj = instance_create_layer(x + lengthdir_x(25, head.image_angle), y + lengthdir_y(25, head.image_angle), "Instances", o_projectile);proj = instance_create_layer(x + lengthdir_x(5, head.image_angle), y + lengthdir_y(5, head.image_angle), "Instances", o_projectile, {
+				direction : head.image_angle,
+				image_angle : head.image_angle,
+				image_blend : color,
+				speed : projectile_speed
+			});
+			//proj.direction = head.image_angle;
+			//proj.image_angle = head.image_angle;
+			//proj.image_blend = color;
+			//proj.speed = projectile_speed;
 	
 		}
 	
@@ -37,7 +42,7 @@ if (is_alive) {
 }
 
 if (speed != 0) {
-	speed -= sign(speed) * 0.075 * speed;
+	speed *= 0.925;
 }
 
 move_bounce_solid(false);

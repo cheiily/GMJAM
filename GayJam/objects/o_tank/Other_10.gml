@@ -7,7 +7,7 @@ if (player_id_ == 0) {
 	color = c_red;
 	color_str = "red";
 } else if (player_id_ == 2) {
-	color = c_blue;
+	color = c_aqua;
 	color_str = "blue";
 } else if (player_id_ == 3) {
 	color = c_yellow;

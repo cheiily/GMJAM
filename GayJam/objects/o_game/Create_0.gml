@@ -1,4 +1,4 @@
-
+window_set_fullscreen(true)
 randomise()
 //instance_create_depth(-10, -10, "Controllers", o_asteroid_spawner);
 
