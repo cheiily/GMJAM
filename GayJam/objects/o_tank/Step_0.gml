@@ -4,7 +4,8 @@ function get_input(_gpid) {
 		rotv: gamepad_axis_value(_gpid, gp_axislv),
 		shoot: gamepad_button_check(_gpid, gp_face1),
 		start: gamepad_button_check(_gpid, gp_start),
-		select: gamepad_button_check(_gpid, gp_select)
+		select: gamepad_button_check(_gpid, gp_select),
+		shoot_h: gamepad_button_check_pressed(_gpid, gp_face1)
 	}
 }
 
@@ -43,7 +44,7 @@ if (is_alive) {
 			direction = image_angle - 180;
 			speed += knockback_speed;
 		
-			proj = instance_create_layer(x + lengthdir_x(25, head.image_angle), y + lengthdir_y(25, head.image_angle), "Instances", o_projectile);
+			proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", o_projectile);
 			proj.direction = head.image_angle;
 			proj.image_angle = head.image_angle;
 			proj.image_blend = color;
