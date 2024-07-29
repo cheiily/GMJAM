@@ -3,7 +3,7 @@ randomise()
 //instance_create_depth(-10, -10, "Controllers", o_asteroid_spawner);
 
 
-audio_play_sound(music, 1, true)
+audio_play_sound(snd_music, 1, true)
 function update_phase() {
 	if (phase.current == phase.wait and phase.previous == phase.finish) {
 		// this should be part of phase.inter cleanup but we always go there from wait, so we don't know whether to clear outliers or not

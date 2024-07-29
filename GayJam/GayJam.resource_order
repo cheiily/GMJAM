@@ -28,6 +28,7 @@
     {"name":"ps_background","order":2,"path":"particles/ps_background/ps_background.yy",},
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
     {"name":"Test","order":1,"path":"rooms/Test/Test.yy",},
+    {"name":"snd_shot","order":1,"path":"sounds/snd_shot/snd_shot.yy",},
     {"name":"s_asteroid_2","order":8,"path":"sprites/s_asteroid_2/s_asteroid_2.yy",},
     {"name":"s_asteroid","order":7,"path":"sprites/s_asteroid/s_asteroid.yy",},
     {"name":"s_bullet","order":11,"path":"sprites/s_bullet/s_bullet.yy",},

@@ -49,6 +49,7 @@ if (is_alive) {
 			proj.image_blend = color;
 			proj.speed = projectile_speed;
 	
+			audio_play_sound(snd_shot, 1, false)
 		}
 	
 	}
