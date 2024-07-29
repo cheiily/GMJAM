@@ -52,6 +52,7 @@
     {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
     {"id":{"name":"sh_rainbow","path":"shaders/sh_rainbow/sh_rainbow.yy",},},
+    {"id":{"name":"snd_asteroid","path":"sounds/snd_asteroid/snd_asteroid.yy",},},
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
     {"id":{"name":"snd_projectile_hit","path":"sounds/snd_projectile_hit/snd_projectile_hit.yy",},},
     {"id":{"name":"snd_shot","path":"sounds/snd_shot/snd_shot.yy",},},

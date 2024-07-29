@@ -29,6 +29,7 @@
     {"name":"ps_background","order":2,"path":"particles/ps_background/ps_background.yy",},
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
     {"name":"Test","order":1,"path":"rooms/Test/Test.yy",},
+    {"name":"snd_asteroid","order":4,"path":"sounds/snd_asteroid/snd_asteroid.yy",},
     {"name":"snd_projectile_hit","order":3,"path":"sounds/snd_projectile_hit/snd_projectile_hit.yy",},
     {"name":"snd_shot","order":1,"path":"sounds/snd_shot/snd_shot.yy",},
     {"name":"snd_tank_death","order":2,"path":"sounds/snd_tank_death/snd_tank_death.yy",},
