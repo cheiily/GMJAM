@@ -22,10 +22,11 @@ if (phase.current == phase.wait) {
 		)
 	}
 	draw_text_ext_transformed(window_get_width()/2, 230, 
-		"Press SELECT to exit",
+		"Press SELECT to exit\n\nUP & DOWN to change number of players",
 		80, 10000,
 		0.3, 0.35, 0
 	)
+	
 }
 if (phase.current == phase.finish) {
 	draw_text_ext_transformed(window_get_width()/2, 260, 

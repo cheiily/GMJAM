@@ -3,9 +3,11 @@ function get_input(_gpid) {
 		roth: gamepad_axis_value(_gpid, gp_axislh),
 		rotv: gamepad_axis_value(_gpid, gp_axislv),
 		shoot: gamepad_button_check(_gpid, gp_face1),
-		start: gamepad_button_check(_gpid, gp_start),
-		select: gamepad_button_check(_gpid, gp_select),
-		shoot_h: gamepad_button_check_pressed(_gpid, gp_face1)
+		start: gamepad_button_check_released(_gpid, gp_start),
+		select: gamepad_button_check_released(_gpid, gp_select),
+		shoot_h: gamepad_button_check_pressed(_gpid, gp_face1),
+		dpad_up: gamepad_button_check_released(_gpid, gp_padu),
+		dpad_down: gamepad_button_check_released(_gpid, gp_padd)
 	}
 }
 
@@ -24,8 +26,19 @@ if (input.start) {
 		}
 	}
 }
-if (input.select and (phase.current == phase.finish or phase.current == phase.wait)) {
-	game_end();
+if (input.select) {
+	if (phase.current == phase.finish or phase.current == phase.wait)
+		game_end();
+	else { 
+		o_game.pause = true;
+		phase.set(phase.wait);
+	}
+}
+if (phase.current == phase.wait) {
+	if (input.dpad_up and o_game.num_req < 4)
+		o_game.num_req++;
+	if (input.dpad_down and o_game.num_req > 2)
+		o_game.num_req--;
 }
 
 if (is_alive) {
