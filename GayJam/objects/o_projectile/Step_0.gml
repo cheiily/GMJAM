@@ -10,3 +10,5 @@ part_particles_create_color(trail, x, y, _part_info.emitters[0].parttype.ind ,im
 
 move_bounce_solid(false);
 move_wrap(true, true, 0);
+
+image_angle = direction;

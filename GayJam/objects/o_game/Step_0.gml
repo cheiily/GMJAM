@@ -2,9 +2,9 @@ if (keyboard_check(vk_f1))
 	game_end();
 	
 if (phase.current == phase.wait) {
-	if (keyboard_check_released(ord("W")))
+	if (keyboard_check_released(ord("W")) and num_req < 4)
 		num_req++;
-	if (keyboard_check_released(ord("S")))
+	if (keyboard_check_released(ord("S")) and num_req > 2)
 		num_req--;
 }
 
@@ -46,6 +46,8 @@ if (num_dead == num_req - 1 and phase.current == phase.game) {
 } else if (num_dead == num_req and phase.current == phase.game) {
 	print = "DRAW";
 	pclr1 = c_red; pclr2 = c_blue; pclr3 = c_yellow; pclr4 = c_lime;
+	if (has_outlier and outlier != undefined)
+		outlier.is_outlier = false;
 	phase.set(phase.inter);
 }
 
