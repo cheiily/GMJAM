@@ -3,7 +3,8 @@ function get_input(_gpid) {
 		roth: gamepad_axis_value(_gpid, gp_axislh),
 		rotv: gamepad_axis_value(_gpid, gp_axislv),
 		shoot: gamepad_button_check(_gpid, gp_face1),
-		start: gamepad_button_check(_gpid, gp_start)
+		start: gamepad_button_check(_gpid, gp_start),
+		select: gamepad_button_check(_gpid, gp_select)
 	}
 }
 
@@ -21,6 +22,9 @@ if (input.start) {
 			phase.set(phase.inter);
 		}
 	}
+}
+if (input.select and phase.current == phase.finish) {
+	game_end();
 }
 
 if (is_alive) {
