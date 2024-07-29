@@ -5,12 +5,6 @@ randomise()
 instance_create_layer(window_get_width()/2, window_get_height()/2, "Controllers", o_title);
 audio_play_sound(snd_music, 1, true)
 function update_phase() {
-	if (phase.current == phase.wait and phase.previous == phase.finish) {
-		// this should be part of phase.inter cleanup but we always go there from wait, so we don't know whether to clear outliers or not
-		with (o_tank) {
-			is_outlier = false;
-		}
-	}
 	if (phase.current == phase.countdown) {
 		instance_deactivate_object(o_title);
 		print = "3";
@@ -18,7 +12,15 @@ function update_phase() {
 	}
 	if (phase.current == phase.inter) {
 		scr_reset_players();
-		alarm[5] = 100;
+		if (phase.previous == phase.finish) {
+			pclr1 = c_white; pclr2 = c_white; pclr3 = c_white; pclr4 = c_white;
+			with (o_tank) {
+				is_outlier = false;
+			}
+			phase.set(phase.countdown);
+		} else {
+			alarm[5] = 100;
+		}
 	}
 	
 	with (o_projectile)
@@ -33,12 +35,6 @@ pause = false;
 num_req = 4;
 num_connected = 0;
 pad_ids = [];
-//for (i = 0; i < gamepad_get_device_count(); i++) {
-//	if (gamepad_is_connected(i)) {
-//		pad_ids[num_connected] = i; // start @ 0
-//		num_connected++;
-//	}
-//}
 
 print_w = "Waiting for Players...";
 print = "";
@@ -50,15 +46,3 @@ pclr4 = c_white;
 draw_set_font(f_font);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-
-// async event handles this as gamepad_discovered is fired for each gamepad on game start
-//for (i = 0; i < num_connected; i++) {
-//	player = instance_create_layer(0, 0, "Instances", o_tank);
-//	player.gamepad_id = pad_ids[i];
-//	with (player) {
-//		event_user(0);
-//	}
-//}
-
-//if (num_connected == num_req)
-//	phase.set(phase.countdown);

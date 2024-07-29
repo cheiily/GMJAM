@@ -10,7 +10,7 @@ draw_text_ext_transformed_color(window_get_width()/2, 100, print, 20, 10000,
 if (phase.current == phase.wait) {
 	if (num_req == num_connected) {
 		draw_text_ext_transformed(window_get_width()/2, 100, 
-			string(num_connected) + "/" + string(num_req) + " Press START.",
+			string(num_connected) + "/" + string(num_req) + " Press START",
 			20, 10000,
 			0.5, 0.5, 0
 		)
@@ -21,6 +21,11 @@ if (phase.current == phase.wait) {
 			0.5, 0.5, 0
 		)
 	}
+	draw_text_ext_transformed(window_get_width()/2, 230, 
+		"Press SELECT to exit",
+		80, 10000,
+		0.3, 0.35, 0
+	)
 }
 if (phase.current == phase.finish) {
 	draw_text_ext_transformed(window_get_width()/2, 260, 
