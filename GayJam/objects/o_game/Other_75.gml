@@ -39,5 +39,8 @@ if (evt_type == "gamepad lost") {
 		}
 	}
 		
+	//if (phase.current == phase.countdown) {
+	//	alarm_
+	//}
 	phase.set(phase.wait);
 }

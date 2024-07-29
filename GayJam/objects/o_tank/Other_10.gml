@@ -17,7 +17,7 @@ if (player_id_ == 0) {
 do {
 	x = random(window_get_width() - 100) + 50;
 	y = random(window_get_height() - 100) + 50;
-} until(place_empty(x, y, other));
+} until(place_empty(x, y));
 
 image_blend = color
 
