@@ -11,3 +11,4 @@ if(is_outlier){
 else{
 	part_particles_create_color(death_effect, x, y, _part_info.emitters[0].parttype.ind ,color, 100);
 }
+audio_play_sound(snd_tank_death, 1, false)
