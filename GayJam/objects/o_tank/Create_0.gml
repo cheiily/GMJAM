@@ -7,6 +7,7 @@ is_alive = true;
 is_outlier = false;
 gamepad_id = 0;
 player_id_ = 0;
+death_effect = part_system_create(ps_dead);
 _uniUV = shader_get_uniform(sh_rainbow, "u_uv");
 _uniTime = shader_get_uniform(sh_rainbow, "u_time");
 _uniSpeed = shader_get_uniform(sh_rainbow, "u_speed");
