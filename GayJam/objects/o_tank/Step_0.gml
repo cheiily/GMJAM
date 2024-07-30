@@ -7,7 +7,9 @@ function get_input(_gpid) {
 		select: gamepad_button_check_released(_gpid, gp_select),
 		//shoot_h: gamepad_button_check_pressed(_gpid, gp_face1),
 		dpad_up: gamepad_button_check_released(_gpid, gp_padu),
-		dpad_down: gamepad_button_check_released(_gpid, gp_padd)
+		dpad_down: gamepad_button_check_released(_gpid, gp_padd),
+		dpad_left: gamepad_button_check_released(_gpid, gp_padl),
+		dpad_right: gamepad_button_check_released(_gpid, gp_padr)
 	}
 }
 
@@ -26,6 +28,7 @@ if (input.start) {
 		}
 	}
 }
+
 if (input.select) {
 	if (phase.current == phase.finish or phase.current == phase.wait)
 		game_end();
@@ -34,11 +37,25 @@ if (input.select) {
 		phase.set(phase.wait);
 	}
 }
+
 if (phase.current == phase.wait) {
 	if (input.dpad_up and o_game.num_req < 4)
 		o_game.num_req++;
 	if (input.dpad_down and o_game.num_req > 2)
 		o_game.num_req--;
+}
+
+if (phase.current == phase.wait) {
+	if (input.dpad_right) {
+		if (vol < 1) 
+			vol += 0.1;
+		audio_master_gain(vol);
+	}
+	if (input.dpad_left){
+		if (vol > 0) 
+			vol -= 0.1;
+		audio_master_gain(vol);
+	}
 }
 
 if (is_alive) {

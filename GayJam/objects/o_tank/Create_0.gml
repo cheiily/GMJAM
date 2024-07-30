@@ -16,4 +16,5 @@ _uniTime = shader_get_uniform(sh_rainbow, "u_time");
 _uniSpeed = shader_get_uniform(sh_rainbow, "u_speed");
 _time = 0;
 _speed = 1.0;
+vol = 1;
 
