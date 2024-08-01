@@ -3,15 +3,19 @@
 if (player_id_ == 0) {
 	color = c_lime;
 	color_str = "green"; 
+	bullet_type = o_projectile;
 } else if (player_id_ == 1) {
 	color = c_red;
 	color_str = "red";
+	bullet_type = o_projectile;
 } else if (player_id_ == 2) {
 	color = c_aqua;
 	color_str = "blue";
+	bullet_type = o_projectile;
 } else if (player_id_ == 3) {
 	color = c_yellow;
 	color_str = "yellow";
+	bullet_type = o_projectile;
 }
 
 do {

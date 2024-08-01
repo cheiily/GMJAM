@@ -83,7 +83,7 @@ if (is_alive) {
 			direction = image_angle - 180;
 			speed += knockback_speed;
 		
-			proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", o_projectile);
+			proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
 			proj.parent = self;
 			proj.direction = head.image_angle;
 			proj.image_angle = head.image_angle;

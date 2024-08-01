@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"s_bullet_2.kra","CopyToMask":-1,"filePath":"datafiles","name":"s_bullet_2.kra","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -39,6 +41,8 @@
     {"id":{"name":"o_asteroid_spawner","path":"objects/o_asteroid_spawner/o_asteroid_spawner.yy",},},
     {"id":{"name":"o_asteroid","path":"objects/o_asteroid/o_asteroid.yy",},},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
+    {"id":{"name":"o_pickup","path":"objects/o_pickup/o_pickup.yy",},},
+    {"id":{"name":"o_projectile_2","path":"objects/o_projectile_2/o_projectile_2.yy",},},
     {"id":{"name":"o_projectile_explosion","path":"objects/o_projectile_explosion/o_projectile_explosion.yy",},},
     {"id":{"name":"o_projectile","path":"objects/o_projectile/o_projectile.yy",},},
     {"id":{"name":"o_tank_head","path":"objects/o_tank_head/o_tank_head.yy",},},
@@ -59,6 +63,7 @@
     {"id":{"name":"snd_tank_death","path":"sounds/snd_tank_death/snd_tank_death.yy",},},
     {"id":{"name":"s_asteroid_2","path":"sprites/s_asteroid_2/s_asteroid_2.yy",},},
     {"id":{"name":"s_asteroid","path":"sprites/s_asteroid/s_asteroid.yy",},},
+    {"id":{"name":"s_bullet_2","path":"sprites/s_bullet_2/s_bullet_2.yy",},},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},},
     {"id":{"name":"s_tank_head","path":"sprites/s_tank_head/s_tank_head.yy",},},
     {"id":{"name":"s_tank","path":"sprites/s_tank/s_tank.yy",},},
