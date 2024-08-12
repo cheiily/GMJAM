@@ -1,11 +1,8 @@
 rotationspeed = 3.5;
-shoot_cd_duration = 30;
 shoot_cd = false;
+shoot_cd_duration = 30;
 knockback_speed = 20;
 projectile_speed = 30;
-//charge = false;
-//charge_time = 0;
-//charge_time_full = 10;
 is_alive = true;
 is_outlier = false;
 gamepad_id = 0;
@@ -17,4 +14,4 @@ _uniSpeed = shader_get_uniform(sh_rainbow, "u_speed");
 _time = 0;
 _speed = 1.0;
 vol = 1;
-
+powerup = 0;

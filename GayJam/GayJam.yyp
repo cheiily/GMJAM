@@ -65,6 +65,7 @@
     {"id":{"name":"s_asteroid","path":"sprites/s_asteroid/s_asteroid.yy",},},
     {"id":{"name":"s_bullet_2","path":"sprites/s_bullet_2/s_bullet_2.yy",},},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},},
+    {"id":{"name":"s_tank_head_2","path":"sprites/s_tank_head_2/s_tank_head_2.yy",},},
     {"id":{"name":"s_tank_head","path":"sprites/s_tank_head/s_tank_head.yy",},},
     {"id":{"name":"s_tank","path":"sprites/s_tank/s_tank.yy",},},
     {"id":{"name":"s_title","path":"sprites/s_title/s_title.yy",},},

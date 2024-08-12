@@ -39,6 +39,7 @@
     {"name":"s_asteroid","order":7,"path":"sprites/s_asteroid/s_asteroid.yy",},
     {"name":"s_bullet_2","order":15,"path":"sprites/s_bullet_2/s_bullet_2.yy",},
     {"name":"s_bullet","order":11,"path":"sprites/s_bullet/s_bullet.yy",},
+    {"name":"s_tank_head_2","order":16,"path":"sprites/s_tank_head_2/s_tank_head_2.yy",},
     {"name":"s_tank_head","order":10,"path":"sprites/s_tank_head/s_tank_head.yy",},
     {"name":"s_tank","order":12,"path":"sprites/s_tank/s_tank.yy",},
     {"name":"s_title","order":14,"path":"sprites/s_title/s_title.yy",},

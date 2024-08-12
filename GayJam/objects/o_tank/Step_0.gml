@@ -67,13 +67,6 @@ if (is_alive) {
 	// allow turret turning outside game
 	if (phase.current == phase.game) {
 		
-		//if (input.shoot_h) {
-		//	charge = true;
-		//	charge_time++;
-		//} else {
-		//	charge = false;
-		//	charge_time = 0;
-		//}
 
 		if (input.shoot and not shoot_cd) {
 			shoot_cd = true;
@@ -91,12 +84,6 @@ if (is_alive) {
 			proj.speed = projectile_speed;
 	
 			audio_play_sound(snd_shot, 1, false)
-			
-			//if (charge_time >= charge_time_full) {
-			//	charge_time = 0;
-			//	alarm[1] = 5;
-			//	alarm[2] = 10;
-			//}
 		}
 	
 	}
@@ -109,6 +96,12 @@ if (speed != 0) {
 
 move_bounce_solid(false);
 move_wrap(true, true, 0);
+
+if(bullet_type = o_projectile_2) {
+	head.sprite_index = s_tank_head_2;
+} else {
+	head.sprite_index = s_tank_head;
+}
 
 head.speed = speed;
 head.direction = direction;
