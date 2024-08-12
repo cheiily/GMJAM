@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"o_pickup",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_tank","path":"objects/o_tank/o_tank.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"o_pickup",
   "overriddenProperties":[],
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bullet_2",
-    "path":"sprites/s_bullet_2/s_bullet_2.yy",
+    "name":"s_bullet_1",
+    "path":"sprites/s_bullet_1/s_bullet_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

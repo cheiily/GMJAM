@@ -59,12 +59,9 @@ if (phase.current == phase.wait) {
 }
 
 if (is_alive) {
-
-	// retain rotation when no input
 	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001)
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
 	
-	// allow turret turning outside game
 	if (phase.current == phase.game) {
 		
 
@@ -96,12 +93,6 @@ if (speed != 0) {
 
 move_bounce_solid(false);
 move_wrap(true, true, 0);
-
-if(bullet_type = o_projectile_2) {
-	head.sprite_index = s_tank_head_2;
-} else {
-	head.sprite_index = s_tank_head;
-}
 
 head.speed = speed;
 head.direction = direction;
