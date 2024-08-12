@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Asteroids",
+    "path":"folders/Sprites/Asteroids.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

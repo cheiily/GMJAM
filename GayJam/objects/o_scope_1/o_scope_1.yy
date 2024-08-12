@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_asteroid_2",
+  "%Name":"o_scope_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_asteroid_2",
+  "name":"o_scope_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Asteroids",
-    "path":"folders/Objects/Asteroids.yy",
+    "name":"Scopes",
+    "path":"folders/Objects/Scopes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"s_asteroid_2",
-    "path":"sprites/s_asteroid_2/s_asteroid_2.yy",
+    "name":"s_scope_1",
+    "path":"sprites/s_scope_1/s_scope_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

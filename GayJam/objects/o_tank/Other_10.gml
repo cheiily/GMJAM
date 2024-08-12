@@ -23,5 +23,8 @@ image_blend = color
 
 head = instance_create_layer(x, y, "Turrets", o_tank_head);
 head.tank = self;
+scope = instance_create_layer(x, y, "Turrets", o_scope_0);
+scope.tank = self;
 
-head.image_blend = color
+head.image_blend = color;
+scope.image_blend = color;

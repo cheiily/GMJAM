@@ -1,4 +1,4 @@
-bullet_type = o_projectile;
+bullet_type = o_projectile_0;
 rotationspeed = 3.5;
 shoot_cd = false;
 shoot_cd_duration = 30;
@@ -16,6 +16,6 @@ _time = 0;
 _speed = 1.0;
 vol = 1;
 powerup = 0;
-blink_time = 4;
+blink_time = 5;
 blink_timer = blink_time;
 blink_alpha = 0.4;

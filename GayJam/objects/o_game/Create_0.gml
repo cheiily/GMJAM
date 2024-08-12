@@ -31,7 +31,7 @@ function update_phase() {
 		}
 	}
 	
-	with (o_projectile)
+	with (o_projectile_0)
 		instance_destroy();
 }
 

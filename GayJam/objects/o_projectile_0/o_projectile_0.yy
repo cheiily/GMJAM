@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"o_projectile",
+  "%Name":"o_projectile_0",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -12,11 +12,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_projectile_1","path":"objects/o_projectile_1/o_projectile_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_projectile",
+  "name":"o_projectile_0",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bullet",
-    "path":"sprites/s_bullet/s_bullet.yy",
+    "name":"s_projectile_0",
+    "path":"sprites/s_projectile_0/s_projectile_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

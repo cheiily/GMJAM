@@ -8,8 +8,8 @@
   "name":"o_asteroid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Asteroids",
+    "path":"folders/Objects/Asteroids.yy",
   },
   "parentObjectId":null,
   "persistent":false,

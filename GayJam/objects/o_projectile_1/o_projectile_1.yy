@@ -12,8 +12,8 @@
   "name":"o_projectile_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bullet_1",
-    "path":"sprites/s_bullet_1/s_bullet_1.yy",
+    "name":"s_projectile_1",
+    "path":"sprites/s_projectile_1/s_projectile_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

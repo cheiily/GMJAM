@@ -59,8 +59,10 @@ if (phase.current == phase.wait) {
 }
 
 if (is_alive) {
-	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001)
+	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001) {
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
+		scope.image_angle = point_direction(0, 0, input.roth, input.rotv);
+	}
 	
 	if (phase.current == phase.game) {
 		
@@ -96,3 +98,6 @@ move_wrap(true, true, 0);
 
 head.speed = speed;
 head.direction = direction;
+
+scope.speed = speed;
+scope.direction = direction;
