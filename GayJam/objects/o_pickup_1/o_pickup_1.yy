@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_pickup",
+  "%Name":"o_pickup_1",
   "eventList":[],
   "managed":true,
-  "name":"o_pickup",
+  "name":"o_pickup_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pickups",
+    "path":"folders/Objects/Pickups.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -15,7 +15,6 @@ _uniSpeed = shader_get_uniform(sh_rainbow, "u_speed");
 _time = 0;
 _speed = 1.0;
 vol = 1;
-powerup = 0;
 blink_time = 5;
 blink_timer = blink_time;
 blink_alpha = 0.4;

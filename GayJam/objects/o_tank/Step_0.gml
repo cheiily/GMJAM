@@ -5,7 +5,6 @@ function get_input(_gpid) {
 		shoot: gamepad_button_check(_gpid, gp_face1),
 		start: gamepad_button_check_released(_gpid, gp_start),
 		select: gamepad_button_check_released(_gpid, gp_select),
-		//shoot_h: gamepad_button_check_pressed(_gpid, gp_face1),
 		dpad_up: gamepad_button_check_released(_gpid, gp_padu),
 		dpad_down: gamepad_button_check_released(_gpid, gp_padd),
 		dpad_left: gamepad_button_check_released(_gpid, gp_padl),
@@ -74,14 +73,38 @@ if (is_alive) {
 			image_angle = head.image_angle;
 			direction = image_angle - 180;
 			speed += knockback_speed;
-		
-			proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
-			proj.parent = self;
-			proj.direction = head.image_angle;
-			proj.image_angle = head.image_angle;
-			proj.image_blend = color;
-			proj.speed = projectile_speed;
-	
+			
+			if (bullet_type == o_projectile_2) {
+				
+				proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
+				proj.parent = self;
+				proj.direction = head.image_angle;
+				proj.image_angle = head.image_angle;
+				proj.image_blend = color;
+				proj.speed = projectile_speed;
+				
+				proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
+				proj.parent = self;
+				proj.direction = head.image_angle - 15;
+				proj.image_angle = head.image_angle - 15;
+				proj.image_blend = color;
+				proj.speed = projectile_speed;
+				
+				proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
+				proj.parent = self;
+				proj.direction = head.image_angle + 15;
+				proj.image_angle = head.image_angle + 15;
+				proj.image_blend = color;
+				proj.speed = projectile_speed;
+				
+			} else {
+				proj = instance_create_layer(x + lengthdir_x(3, head.image_angle), y + lengthdir_y(3, head.image_angle), "Instances", bullet_type);
+				proj.parent = self;
+				proj.direction = head.image_angle;
+				proj.image_angle = head.image_angle;
+				proj.image_blend = color;
+				proj.speed = projectile_speed;
+			}
 			audio_play_sound(snd_shot, 1, false)
 		}
 	
