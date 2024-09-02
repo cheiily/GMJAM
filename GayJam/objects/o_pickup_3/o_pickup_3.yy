@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_pickup_2",
+  "%Name":"o_pickup_3",
   "eventList":[],
   "managed":true,
-  "name":"o_pickup_2",
+  "name":"o_pickup_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Pickups",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_projectile_2",
-    "path":"sprites/s_projectile_2/s_projectile_2.yy",
+    "name":"s_projectile_3",
+    "path":"sprites/s_projectile_3/s_projectile_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
