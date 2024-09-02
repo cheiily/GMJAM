@@ -18,6 +18,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_projectile_2","path":"objects/o_projectile_2/o_projectile_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_projectile_3","path":"objects/o_projectile_3/o_projectile_3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_pickup_3","path":"objects/o_pickup_3/o_pickup_3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_pickup_4","path":"objects/o_pickup_4/o_pickup_4.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_tank",

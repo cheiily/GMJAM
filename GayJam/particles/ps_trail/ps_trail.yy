@@ -14,7 +14,7 @@
   "name":"ps_trail",
   "parent":{
     "name":"Particle Systems",
-    "path":"folders/Particle Systems.yy",
+    "path":"folders/Objects/Particle Systems.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",
