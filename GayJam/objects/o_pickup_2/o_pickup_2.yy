@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"o_pickup_2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_pickup_2",
   "overriddenProperties":[],
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_projectile_2",
-    "path":"sprites/s_projectile_2/s_projectile_2.yy",
+    "name":"s_pickup_2",
+    "path":"sprites/s_pickup_2/s_pickup_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
