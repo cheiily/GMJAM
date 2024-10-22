@@ -42,6 +42,7 @@ if (evt_type == "gamepad lost") {
 		
 	with (o_tank) {
 		if (gamepad_id == async_load[?"pad_index"]) {
+			instance_destroy(scope);
 			instance_destroy(head);
 			instance_destroy();
 		}
