@@ -20,13 +20,13 @@ with(o_tank) {
 if (num_dead == num_req - 1 and phase.current == phase.game) {
 	if (has_outlier and outlier == survivor) {
 		o_tank.head.sprite_index = s_tank_head;
-		show_debug_message("dead" + string(num_dead) + " out? " + string(has_outlier) + " who " + string(outlier));
+		//show_debug_message("dead" + string(num_dead) + " out? " + string(has_outlier) + " who " + string(outlier));
 		print = string_upper(survivor.color_str) + " WINS!";
 		pclr1 = survivor.color; pclr2 = survivor.color; pclr3 = survivor.color; pclr4 = survivor.color;
 		phase.set(phase.finish);
 	} else {
 		o_tank.head.sprite_index = s_tank_head;
-		show_debug_message("dead" + string(num_dead) + " out? " + string(has_outlier) + " who " + string(outlier));
+		//show_debug_message("dead" + string(num_dead) + " out? " + string(has_outlier) + " who " + string(outlier));
 		print = string_upper(survivor.color_str) + " IS\n\n\n\nTHE OUTLIER!";
 		pclr1 = survivor.color; pclr2 = survivor.color; pclr3 = survivor.color; pclr4 = survivor.color;
 		if (has_outlier and outlier != undefined)

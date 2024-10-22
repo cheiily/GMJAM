@@ -33,6 +33,14 @@ function update_phase() {
 	
 	with (o_projectile_0)
 		instance_destroy();
+	with (o_projectile_1)
+		instance_destroy();
+	with (o_projectile_2)
+		instance_destroy();
+	with (o_projectile_3)
+		instance_destroy();
+	with (o_projectile_4)
+		instance_destroy();
 }
 
 randomise()
