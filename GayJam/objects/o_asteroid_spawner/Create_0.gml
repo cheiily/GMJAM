@@ -17,7 +17,7 @@ for (var i = 0; i < o_nr; i++) {
 	
 	array_delete(global.spawn_points, index, 1);
 	
-	var new_instance = instance_create_layer(spawn_x, spawn_y, "Instances", choose(o_asteroid, o_asteroid_2));
+	var new_instance = instance_create_layer(spawn_x, spawn_y, "Instances", choose(o_asteroid, o_asteroid_2, o_asteroid_3, o_asteroid_4));
 
     new_instance.image_xscale = random_range(0.3, 1.4);
     new_instance.image_yscale = new_instance.image_xscale;
