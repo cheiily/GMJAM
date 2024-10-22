@@ -17,5 +17,6 @@ function scr_reset_players(){
 
 		image_alpha = 1
 		head.image_alpha = 1
+		scope.image_alpha = 1
 	}
 }
