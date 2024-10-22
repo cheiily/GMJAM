@@ -78,6 +78,7 @@
     {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
     {"id":{"name":"scr_tank_die","path":"scripts/scr_tank_die/scr_tank_die.yy",},},
+    {"id":{"name":"scr_tank_reset_tank_props","path":"scripts/scr_tank_reset_tank_props/scr_tank_reset_tank_props.yy",},},
     {"id":{"name":"sh_rainbow","path":"shaders/sh_rainbow/sh_rainbow.yy",},},
     {"id":{"name":"snd_asteroid","path":"sounds/snd_asteroid/snd_asteroid.yy",},},
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},

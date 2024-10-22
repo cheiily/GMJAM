@@ -14,6 +14,8 @@ function scr_reset_players(){
 		} until(place_empty(x, y, other));
 
 		// head pos in o_tank_head::step
+		
+		scr_tank_reset_tank_props(self);
 
 		image_alpha = 1
 		head.image_alpha = 1
