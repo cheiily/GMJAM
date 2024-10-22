@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_tank_reset_tank_props",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_tank_reset_tank_props",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

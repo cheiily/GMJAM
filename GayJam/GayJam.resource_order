@@ -50,6 +50,7 @@
     {"name":"ps_dead","order":1,"path":"particles/ps_dead/ps_dead.yy",},
     {"name":"Test","order":1,"path":"rooms/Test/Test.yy",},
     {"name":"scr_tank_die","order":1,"path":"scripts/scr_tank_die/scr_tank_die.yy",},
+    {"name":"scr_tank_reset_tank_props","order":2,"path":"scripts/scr_tank_reset_tank_props/scr_tank_reset_tank_props.yy",},
     {"name":"snd_asteroid","order":4,"path":"sounds/snd_asteroid/snd_asteroid.yy",},
     {"name":"snd_projectile_hit","order":3,"path":"sounds/snd_projectile_hit/snd_projectile_hit.yy",},
     {"name":"snd_shot","order":1,"path":"sounds/snd_shot/snd_shot.yy",},
