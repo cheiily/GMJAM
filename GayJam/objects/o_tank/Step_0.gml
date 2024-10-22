@@ -58,7 +58,7 @@ if (phase.current == phase.wait) {
 }
 
 if (is_alive) {
-	if (abs(input.roth) >= 0.0001 and abs(input.rotv) >= 0.0001) {
+	if (abs(input.roth) >= 0.1 or abs(input.rotv) >= 0.1) {
 		head.image_angle = point_direction(0, 0, input.roth, input.rotv);
 		scope.image_angle = point_direction(0, 0, input.roth, input.rotv);
 	}
