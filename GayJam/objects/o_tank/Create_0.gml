@@ -1,7 +1,7 @@
 bullet_type = o_projectile_0;
 rotationspeed = 3.5;
 shoot_cd = false;
-shoot_cd_duration = 30;
+shoot_cd_duration = 20;
 knockback_speed = 20;
 projectile_speed = 30;
 is_alive = true;
