@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_asteroid",
+  "%Name":"o_asteroid_4",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_asteroid",
+  "name":"o_asteroid_4",
   "overriddenProperties":[],
   "parent":{
     "name":"Asteroids",
@@ -23,20 +23,15 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":0.0,"y":0.0,},
-    {"x":256.0,"y":0.0,},
-    {"x":256.0,"y":256.0,},
-    {"x":0.0,"y":256.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"s_asteroid_1",
-    "path":"sprites/s_asteroid_1/s_asteroid_1.yy",
+    "name":"s_asteroid_4",
+    "path":"sprites/s_asteroid_4/s_asteroid_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
