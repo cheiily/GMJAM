@@ -15,17 +15,6 @@ function get_input(_gpid) {
 
 var input = get_input(gamepad_id);
 
-if (input.debug_spawn) {
-	with (o_tank) {
-	do {
-		x = random(window_get_width() - 100) + 50;
-		y = random(window_get_height() - 100) + 50;
-	} until(place_empty(x, y) and not scr_collides_asteroid(x, y));
-
-	}
-	//instance_create_layer(_x, _y, "Instances", choose(o_pickup_1, o_pickup_2, o_pickup_3, o_pickup_4))
-}
-
 if (input.start) {
 	if (phase.current == phase.finish) {
 		phase.set(phase.inter);
