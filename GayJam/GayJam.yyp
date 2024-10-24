@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.800.0.618",
   },
   "name":"GayJam",
   "resources":[
@@ -76,6 +76,7 @@
     {"id":{"name":"ps_trail","path":"particles/ps_trail/ps_trail.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
+    {"id":{"name":"scr_collides_asteroid","path":"scripts/scr_collides_asteroid/scr_collides_asteroid.yy",},},
     {"id":{"name":"scr_reset_players","path":"scripts/scr_reset_players/scr_reset_players.yy",},},
     {"id":{"name":"scr_tank_die","path":"scripts/scr_tank_die/scr_tank_die.yy",},},
     {"id":{"name":"scr_tank_reset_tank_props","path":"scripts/scr_tank_reset_tank_props/scr_tank_reset_tank_props.yy",},},

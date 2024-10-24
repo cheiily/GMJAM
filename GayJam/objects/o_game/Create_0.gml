@@ -20,6 +20,11 @@ function update_phase() {
 	}
 	if (phase.current == phase.inter) {
 		scr_reset_players();
+		instance_destroy(o_pickup_1);
+		instance_destroy(o_pickup_2);
+		instance_destroy(o_pickup_3);
+		instance_destroy(o_pickup_4);
+		
 		if (phase.previous == phase.finish) {
 			pclr1 = c_white; pclr2 = c_white; pclr3 = c_white; pclr4 = c_white;
 			with (o_tank) {
