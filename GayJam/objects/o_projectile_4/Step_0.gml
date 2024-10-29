@@ -8,7 +8,7 @@ if (speed > 1.25) {
 }
 
 var _part_info = particle_get_info(trail);
-part_type_scale(_part_info.emitters[0].parttype.ind, 2, 2);
+part_type_size(_part_info.emitters[0].parttype.ind, 0.5, 0.5, -0.02, 0);
 part_particles_create_color(trail, x, y, _part_info.emitters[0].parttype.ind ,image_blend, 1);
 
 move_bounce_solid(false);
