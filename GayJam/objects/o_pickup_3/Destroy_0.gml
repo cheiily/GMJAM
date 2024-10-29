@@ -1,0 +1,1 @@
+o_pickup_spawner.num_pickups--;

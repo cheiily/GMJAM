@@ -5,4 +5,3 @@ self.knockback_speed = 10;
 self.projectile_speed = 20;
 alarm[1] = 4 * 60;
 instance_destroy(other);
-o_pickup_spawner.num_pickups--;
