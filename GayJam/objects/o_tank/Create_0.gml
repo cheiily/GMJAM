@@ -18,3 +18,6 @@ vol = 1;
 blink_time = 5;
 blink_timer = blink_time;
 blink_alpha = 0.4;
+
+//debug_ignore_time = 5;
+//debug_ignore_timer = 0;

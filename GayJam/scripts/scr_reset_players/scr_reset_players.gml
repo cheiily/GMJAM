@@ -11,7 +11,7 @@ function scr_reset_players(){
 		do {
 			x = random(window_get_width() - 100) + 50;
 			y = random(window_get_height() - 100) + 50;
-		} until(place_empty(x, y, other));
+		} until(place_empty(x, y, other) && !scr_collides_asteroid(x, y));
 
 		// head pos in o_tank_head::step
 		
