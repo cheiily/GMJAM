@@ -15,12 +15,6 @@ function get_input(_gpid) {
 
 var input = get_input(gamepad_id);
 
-//debug_ignore_timer--;
-//if (input.debug_spawn and debug_ignore_timer <= 0) {
-//	scr_reset_players();
-//	debug_ignore_timer = debug_ignore_time;
-//}
-
 if (input.start) {
 	if (phase.current == phase.finish) {
 		phase.set(phase.inter);
